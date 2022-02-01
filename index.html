@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <link rel="icon" type="image/x-icon" href="resources/favico.ico".>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="icon" type="image/x-icon" href="resources/favico.ico">
         <title>Squwordle</title>
     </head>
+    <script src="index.js"></script> 
     <body>
         <div id = "title">
-            <h3 class = "title" >Welcome too...</h3>
+            <h3 class = "title" >Welcome to...</h3>
             <h1 class = "title" >Squwordle!</h1>
             <img id = "iconLeft" src="./resources/iconLeft.png"> 
             <img id = "iconRight" src="./resources/iconRight.png"> 
@@ -15,11 +16,16 @@
         <div id = "body">
             <p class="body">Compete against your friends and try to get the most points!</p>
             <p class="body">Or, don't, and miss out on tons of fun.</p>
-            <div id = "buttons">
-                
+            <div id = "buttons1">
+                <button id = "howToButton" type:"button" onclick = "window.location.href='./howto.html';">How to play</button> <br>
+            </div>
+            <div id = "buttons2">
+                <button class="titleButton" type:"button" >Start game</button>
+                <button class="titleButton" type:"button" onclick="">Training</button>
             </div>
         </div>
+        <div id = "footer">
+            <p>Made by Darwin Rescorla - <a href = "http://axilo.tl">axilo.tl</p>
+        </div>
     </body>
-
-
 </html>

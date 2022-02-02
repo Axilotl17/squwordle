@@ -1,5 +1,5 @@
-function isWord() {
-    console.log (words[4])
+function isWord(word) {
+    let x = words.includes(word); return x 
 }
 const words = [
 "aardvark",

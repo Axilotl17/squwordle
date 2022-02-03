@@ -44,3 +44,11 @@ input{
     padding: 5px 10px;
     font-size: 18px;
   }
+#back {
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}

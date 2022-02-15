@@ -7,7 +7,7 @@ var letters = [
     "f",
     "g"
 ]
-function teste() {
+function  isInputWord() {
     demoInput = document.getElementById("demoInput");
     demoLabel = document.getElementById("demoLabel");
     demoInput.addEventListener("change", function () {
